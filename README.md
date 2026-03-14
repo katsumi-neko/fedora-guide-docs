@@ -14,5 +14,5 @@ Guides and Documentation to help new users get started with Fedora Linux! Most o
 
 ## Virtual Machines
 * This guide will teach you how to setup Virtual Machine Manager to run virtual machines on your system!
-|[Setting up Virtual Machines](https://github.com/katsumi-neko/fedora-guide-docs/blob/main/setup-guides/virtualization.md)\
+|[Setting up Virtual Machines](https://github.com/katsumi-neko/fedora-guide-docs/blob/main/setup-guides/virtualization.md)|
 |---|
