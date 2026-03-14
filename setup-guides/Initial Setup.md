@@ -27,5 +27,5 @@ sudo dnf update
 ## Installing GPU Drivers & Multimedia Codecs
 * Pick the option for whichever GPU you have. If you have multiple, follow the guide for each one. 
 
-|[Nvidia](https://github.com/katsumi-neko/fedora-guide-docs/blob/main/drivers/Nvidia.md)|[Intel](https://github.com/)|[Or here](https://github.com/)|
-|---|---|---|
+|[Nvidia](https://github.com/katsumi-neko/fedora-guide-docs/blob/main/drivers/Nvidia.md)|
+|---|
