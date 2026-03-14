@@ -22,7 +22,7 @@ sudo dnf update
 
 ## Install the RPM Fusion Repositories
 * These repositories are necessary to be able to install extra proprietary software and some free software that isn't included in the main repositories (such as Nvidia drivers, Discord, Steam, etc)
-`sudo dnf install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm`
+````sudo dnf install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm````
 
 ## Installing Nvidia GPU Drivers
 * Pick the option for whichever GPU you have. If you have multiple, follow the guide for each one. 
@@ -30,6 +30,14 @@ sudo dnf update
 |[Nvidia Driver Installation](https://github.com/katsumi-neko/fedora-guide-docs/blob/main/setup-guides/Nvidia.md)|
 |---|
 
-# Installing Multimedia Codecs
+## Installing Multimedia Codecs
 |[Multimedia Codec Installation](https://github.com/katsumi-neko/fedora-guide-docs/blob/main/setup-guides/codecs.md)|
 |---|
+
+## Replace Fedora Flatpak with Flathub
+* By default Fedora ships their own Flatpak repository, but this does not include everything within the Flathub. Additionally, packages on Fedora flatpak may have issues that Flathub flatpaks do not have. It is commonly recommended to replace the Fedora flatpak repository with the one from Flathub. 
+````sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo````
+
+````flatpak remote-modify --no-filter --enable flathub````
+
+````flatpak remote-delete fedora```
