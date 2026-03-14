@@ -1,6 +1,6 @@
 # Installing Nvidia GPU Drivers & Codecs
 
-|[Back](https://github.com/katsumi-neko/fedora-guide-docs/blob/main/Initial%20Setup.md)|[Home](https://github.com/katsumi-neko/fedora-guide-docs)|
+|[Back](https://github.com/katsumi-neko/fedora-guide-docs/blob/main/setup-guides/Initial%20Setup.md)|[Home](https://github.com/katsumi-neko/fedora-guide-docs)|
 |---|---|
 
 ## Nvidia GPU Drivers (16xx or newer)
