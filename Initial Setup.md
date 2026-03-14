@@ -1,6 +1,6 @@
-# Initial Setup Guide
+# Post Installation Setup Guide
 
-|[Return]([https://github.com/](https://github.com/katsumi-neko/fedora-setup))|
+|[Return]([https://github.com/](https://github.com/katsumi-neko/fedora-setup)|
 |---|
 
 ## DNF Configuration (optional)
@@ -12,3 +12,16 @@ max_parallel_downloads=10
 defaultyes=True
 # Sets default behavior to Yes when pressing Enter on a confirmation
 ```
+
+## (Important) Update your system
+* It is critical to update your system before installing any packages in order to ensure stability and that you get the latest version of all packages.
+`sudo dnf update`
+
+## Install the RPM Fusion Repositories
+* These repositories are necessary to be able to install extra proprietary software and some free software that isn't included in the main repositories (such as Nvidia drivers, Discord, Steam, etc)
+`sudo dnf install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm`
+
+## Installing GPU Drivers
+* If you have an AMD GPU, skip this step! They are built in!
+|[Nvidia](https://github.com/katsumi-neko/fedora-guide-docs/blob/main/drivers/Nvidia.md)|[Or here](https://github.com/)|[Or here](https://github.com/)|
+|---|---|---|
