@@ -29,3 +29,7 @@ sudo dnf update
 
 |[Nvidia Driver Installation](https://github.com/katsumi-neko/fedora-guide-docs/blob/main/setup-guides/Nvidia.md)|
 |---|
+
+# Installing Multimedia Codecs
+|[Multimedia Codec Installation](https://github.com/katsumi-neko/fedora-guide-docs/blob/main/setup-guides/codecs.md)|
+|---|
