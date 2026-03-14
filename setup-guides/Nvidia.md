@@ -1,5 +1,5 @@
 # Installing Nvidia GPU Drivers & Codecs
-* You must have the RPM Fusion repositories installed in order to install the Nvidia drivers.
+You must have the RPM Fusion repositories installed in order to install the Nvidia drivers.
 
 |[Back](https://github.com/katsumi-neko/fedora-guide-docs/blob/main/setup-guides/Initial%20Setup.md)|[Home](https://github.com/katsumi-neko/fedora-guide-docs)|
 |---|---|
