@@ -14,10 +14,5 @@ sudo dnf install akmod-nvidia xorg-x11-drv-nvidia-cuda xorg-x11-drv-nvidia-cuda-
 sudo dnf install xorg-x11-drv-nvidia-580xx akmod-nvidia-580xx xorg-x11-drv-nvidia-580xx-cuda
 ```
 
-## Nvidia Specific Multimedia codecs
-```
-sudo dnf install libva-nvidia-driver.{i686,x86_64} libva-utils vdpauinfo nvidia-query-resource-opengl nvidia-texture-tools freeglut-devel libX11-devel libXi-devel libXmu-devel make mesa-libGLU-devel freeimage-devel glfw
-```
-
 ## Important Notice!!
 * It is critical to wait at least 5 minutes after installing Nvidia drivers, as well as after every system update, to ensure that the kernel modules get build (as this runs in the background). Rebooting early will result in a black screen!!
