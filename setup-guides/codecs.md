@@ -1,5 +1,8 @@
 # Installing Multimedia Codecs
+* RPM Fusion repositories are required for this
 
+|[Back](https://github.com/katsumi-neko/fedora-guide-docs/blob/main/setup-guides/Initial%20Setup.md)|[Home](https://github.com/katsumi-neko/fedora-guide-docs)|
+|---|---|
 
 ## AMD Specific Codecs
 ```
