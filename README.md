@@ -1,4 +1,4 @@
-# fedora-guide-docs
+# Katsumi's Fedora Guide Docs
 Guides and Documentation to help new users get started with Fedora Linux! Most of this information is pulled from the official Fedora and RPM fusion documentation, with some personal recommendations added in as `(Optional)` sections. 
 
 ## Initial setup
