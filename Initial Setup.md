@@ -5,7 +5,7 @@
 
 ## DNF Configuration (optional)
 * This is a set of quality of life options for your DNF configuration to make life easier.
-Edit your `/etc/dnf/dnf.conf to look like this.
+Edit your `/etc/dnf/dnf.conf` to look like this.
 ```
 [main]
 max_parallel_downloads=10 
