@@ -1,5 +1,5 @@
 # Installing Multimedia Codecs
-* You must have the RPM Fusion repositories installed to install the codecs below. 
+You must have the RPM Fusion repositories installed to install the codecs below. 
 
 |[Back](https://github.com/katsumi-neko/fedora-guide-docs/blob/main/setup-guides/Initial%20Setup.md)|[Home](https://github.com/katsumi-neko/fedora-guide-docs)|
 |---|---|
