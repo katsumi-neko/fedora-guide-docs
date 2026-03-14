@@ -12,4 +12,5 @@
 ## Environment Variables
 * In addition to the browser configuration, you will need to enable these environment variables.
 * In Fedora KDE Plasma edition, you can can right click Firefox in the Application menu, click `Edit application`, and add these to the `Environment Variables` line
+
 `MOZ_DISABLE_RDD_SANDBOX=1 LIBVA_DRIVER_NAME=nvidia`
