@@ -1,4 +1,5 @@
 # Post Installation Setup Guide
+* This guide will help you set up your Fedora installation, please read everything in a section before just running commands.
 
 |[Home](https://github.com/katsumi-neko/fedora-guide-docs)|
 |---|
