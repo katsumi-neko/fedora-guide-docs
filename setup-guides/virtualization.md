@@ -26,6 +26,15 @@ sudo systemctl enable --now libvirtd
 ```
 sudo usermod -aG libvirt $USER
 ```
+* To verify that the KVM modules are loaded
+```
+lsmod | grep kvm
+```
+^ this should return an output that looks like this
+```
+kvm_amd               114688  0
+kvm                   831488  1 kvm_amd
+```
 
 ## Creating and Using Virtual Machines
 * It is far easier to use the Virtual Machine Manager GUI application to manage your virtual machines. This is installed in the steps above
