@@ -23,5 +23,6 @@ defaultyes=True
 
 ## Installing GPU Drivers
 * If you have an AMD GPU, skip this step! They are built in!
+
 |[Nvidia](https://github.com/katsumi-neko/fedora-guide-docs/blob/main/drivers/Nvidia.md)|[Or here](https://github.com/)|[Or here](https://github.com/)|
 |---|---|---|
