@@ -38,13 +38,13 @@ sudo dnf install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-releas
 
 ## Replace Fedora Flatpak with Flathub
 * By default Fedora ships their own Flatpak repository, but this does not include everything within the Flathub. Additionally, packages on Fedora flatpak may have issues that Flathub flatpaks do not have. It is commonly recommended to replace the Fedora flatpak repository with the one from Flathub.
+* Fedora does not ship with any Flatpaks installed by default, if you have installed them, you will need to reinstall them from Flathub before deleting the Fedora flatpak. You can check if you have any flatpaks installed by running `flatpak list`
 ```
 sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 ```
 ```
 flatpak remote-modify --no-filter --enable flathub
 ```
-* Before deleting Fedora flatpak, it is recommended to remove any packages installed from Fedora flatpak and install them from Flathub
 ```
 flatpak remote-delete fedora
 ```
