@@ -1,8 +1,7 @@
 # Setting up hardware accelerated video decoding in Firefox on Nvidia GPUs 
 This guide uses information from the [nvidia-vaapi-driver](https://github.com/elFarto/nvidia-vaapi-driver) repository.
 * You must have the Nvidia drivers and codecs (Can be found in the [initial setup guide.](https://github.com/katsumi-neko/fedora-guide-docs/blob/main/setup-guides/Initial%20Setup.md)
-
--# I may add Chromium based browsers later on
+<sup><sub>I may add Chromium based browsers later on</sub></sup>
 
 |[Home](https://github.com/katsumi-neko/fedora-guide-docs)|
 |---|
