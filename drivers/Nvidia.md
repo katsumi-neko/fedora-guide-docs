@@ -6,9 +6,15 @@
 ## Warning:
 * Nvidia has dropped support for 10xx and older cards starting with the 590 driver series (in Fedora 44 and newer), please do not install these drivers if you have an unsupported card.
 
-## Nvidia GPU Drivers
+## Nvidia GPU Drivers (16xx or newer)
 ```
-sudo dnf install akmod-nvidia xorg-x11-drv-nvidia-cuda xorg-x11-drv-nvidia-cuda-libs libva-nvidia-driver libva-utils vdpauinfo vulkan
+sudo dnf install akmod-nvidia xorg-x11-drv-nvidia-cuda xorg-x11-drv-nvidia-cuda-libs
+```
+
+**STARTING IN FEDORA 44, NOT AVAILABLE IN F43 YET)
+## Legacy Nvidia GPU Drivers (10xx or older cards)
+```
+sudo dnf install xorg-x11-drv-nvidia-580xx akmod-nvidia-580xx xorg-x11-drv-nvidia-580xx-cuda
 ```
 
 ## Nvidia multimedia codecs
