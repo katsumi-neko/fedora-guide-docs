@@ -1,7 +1,7 @@
 # Setting up Virtual Machines on Fedora Linux
 * This guide will teach you how to set up virtual machines on Fedora linux
 
-  |[Home](https://github.com/katsumi-neko/fedora-guide-docs)|
+|[Home](https://github.com/katsumi-neko/fedora-guide-docs)|
 |---|
 
 ## System Requirements
