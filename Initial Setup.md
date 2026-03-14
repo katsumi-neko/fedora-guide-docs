@@ -1,6 +1,6 @@
 # Post Installation Setup Guide
 
-|[Return]([https://github.com/](https://github.com/katsumi-neko/fedora-setup)|
+|[Return](https://github.com/katsumi-neko/fedora-setup)|
 |---|
 
 ## DNF Configuration (optional)
