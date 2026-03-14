@@ -44,6 +44,7 @@ sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub
 ```
 flatpak remote-modify --no-filter --enable flathub
 ```
+* Before deleting Fedora flatpak, it is recommended to remove any packages installed from Fedora flatpak and install them from Flathub
 ```
 flatpak remote-delete fedora
 ```
