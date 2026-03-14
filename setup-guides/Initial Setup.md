@@ -3,7 +3,7 @@
 |[Home](https://github.com/katsumi-neko/fedora-guide-docs)|
 |---|
 
-## DNF Configuration (optional)
+## (Optional) DNF Configuration
 * This is a set of quality of life options for your DNF configuration to make life easier.
 Edit your `/etc/dnf/dnf.conf` to look like this.
 ```
@@ -47,4 +47,10 @@ flatpak remote-modify --no-filter --enable flathub
 ```
 ```
 flatpak remote-delete fedora
+```
+
+## (optional) Fix occasional slow bootup
+* By default, the service `NetworkManager-wait-online.service` is enabled in Fedora. This service will delay the system booting up until a network connection is established, but it is known to occasionally hang and delay startup. You should only disable this service if you do not have any services that are dependent on an online connection to start. (Out of the box, Fedora does not have any such services)
+```
+sudo systemctl disable NetworkManager-wait-online.service
 ```
