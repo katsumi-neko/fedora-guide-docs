@@ -3,18 +3,12 @@
 |[Return]([https://github.com/](https://github.com/katsumi-neko/fedora-setup))|
 |---|
 
-<details>
-<summary>DNF Configuration (Optional)</summary>
-This is a set of quality of life options for your DNF configuration to make life easier
-<details>
-<summary>Example</summary>
-<pre>$ This dropdown contains<br>a code block!</pre>
-</details>
+## DNF Configuration (optional)
+* This is a set of quality of life options for your DNF configuration to make life easier.
+Edit your `/etc/dnf/dnf.conf and add the following options BELOW [main]
 ```
-[main]
-max_parallel_downloads=10
+max_parallel_downloads=10 
+# Sets the amount of simultaneous downloads to 10
 defaultyes=True
-installonly_limit=3
-skip_if_unavailable=True
+# Sets default behavior to Yes when pressing Enter on a confirmation
 ```
-</details>
