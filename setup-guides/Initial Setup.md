@@ -27,5 +27,5 @@ sudo dnf update
 ## Installing Nvidia GPU Drivers
 * Pick the option for whichever GPU you have. If you have multiple, follow the guide for each one. 
 
-|[Nvidia Driver Installation](https://github.com/katsumi-neko/fedora-guide-docs/blob/main/drivers/Nvidia.md)|
+|[Nvidia Driver Installation](https://github.com/katsumi-neko/fedora-guide-docs/blob/main/setup-guides/Nvidia.md)|
 |---|
