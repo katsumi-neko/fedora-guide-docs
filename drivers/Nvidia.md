@@ -11,9 +11,8 @@
 sudo dnf install akmod-nvidia xorg-x11-drv-nvidia-cuda xorg-x11-drv-nvidia-cuda-libs
 ```
 
-
-**STARTING IN FEDORA 44, NOT AVAILABLE IN F43 YET)**
 ## Legacy Nvidia GPU Drivers (10xx or older cards)
+**STARTING IN FEDORA 44, NOT AVAILABLE IN F43 YET)**
 ```
 sudo dnf install xorg-x11-drv-nvidia-580xx akmod-nvidia-580xx xorg-x11-drv-nvidia-580xx-cuda
 ```
