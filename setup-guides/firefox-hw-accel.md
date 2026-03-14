@@ -1,6 +1,9 @@
 # Setting up hardware accelerated video decoding in Firefox on Nvidia GPUs 
 * I may add Chromium based browsers later on
 
+|[Home](https://github.com/katsumi-neko/fedora-guide-docs)|
+|---|
+
 ## Browser configuration
 * In firefox, enter `about:config` in the address bar and press enter. From there, you will set the following values:
 
