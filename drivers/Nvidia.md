@@ -3,6 +3,9 @@
 |[Back](https://github.com/katsumi-neko/fedora-guide-docs/blob/main/Initial%20Setup.md)|[Home](https://github.com/katsumi-neko/fedora-guide-docs)|
 |---|---|
 
+## Warning:
+* Nvidia has dropped support for 10xx and older cards starting with the 590 driver series (in Fedora 44 and newer), please do not install these drivers if you have an unsupported card.
+
 ## Nvidia GPU Drivers
 ```
 sudo dnf install akmod-nvidia xorg-x11-drv-nvidia-cuda xorg-x11-drv-nvidia-cuda-libs libva-nvidia-driver libva-utils vdpauinfo vulkan
