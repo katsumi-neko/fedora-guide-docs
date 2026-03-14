@@ -16,7 +16,9 @@ defaultyes=True
 
 ## (Important) Update your system
 * It is critical to update your system before installing any packages in order to ensure stability and that you get the latest version of all packages.
-`sudo dnf update`
+```
+sudo dnf update
+```
 
 ## Install the RPM Fusion Repositories
 * These repositories are necessary to be able to install extra proprietary software and some free software that isn't included in the main repositories (such as Nvidia drivers, Discord, Steam, etc)
