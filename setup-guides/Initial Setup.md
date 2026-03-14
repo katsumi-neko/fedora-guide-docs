@@ -24,8 +24,8 @@ sudo dnf update
 * These repositories are necessary to be able to install extra proprietary software and some free software that isn't included in the main repositories (such as Nvidia drivers, Discord, Steam, etc)
 `sudo dnf install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm`
 
-## Installing GPU Drivers & Multimedia Codecs
+## Installing Nvidia GPU Drivers
 * Pick the option for whichever GPU you have. If you have multiple, follow the guide for each one. 
 
-|[Nvidia](https://github.com/katsumi-neko/fedora-guide-docs/blob/main/drivers/Nvidia.md)|
+|[Nvidia Driver Installation](https://github.com/katsumi-neko/fedora-guide-docs/blob/main/drivers/Nvidia.md)|
 |---|
