@@ -4,7 +4,18 @@
 |[Back](https://github.com/katsumi-neko/fedora-guide-docs/blob/main/setup-guides/Initial%20Setup.md)|[Home](https://github.com/katsumi-neko/fedora-guide-docs)|
 |---|---|
 
-## AMD Specific Codecs
+## Universal Extra Codecs
+* Swap ffmpeg-free for ffmpeg for better compatibility
+```
+sudo dnf swap ffmpeg-free ffmpeg --allowerasing
+```
+* Install other proprietary/restricted codecs needed by many multimedia applications
+```
+sudo dnf update @multimedia --setopt="install_weak_deps=False" --exclude=PackageKit-gstreamer-plugin
+```
+
+## Codecs for AMD GPUs
+* These commands will swap out the FOSS codecs with the restricted ones for better compatibility
 ```
 sudo dnf swap mesa-va-drivers.i686 mesa-va-drivers-freeworld.i686
 ```
@@ -12,12 +23,13 @@ sudo dnf swap mesa-va-drivers.i686 mesa-va-drivers-freeworld.i686
 sudo dnf swap mesa-va-drivers mesa-va-drivers-freeworld
 ```
 
-## Nvidia Specific Codecs
+## Codecs for Nvidia GPUs
+* Extra codecs for Nvidia GPUs, will also install the VA-API compatibility driver for VA-API hardware decoding. 
 ```
 sudo dnf install libva-nvidia-driver.{i686,x86_64} libva-utils vdpauinfo nvidia-query-resource-opengl nvidia-texture-tools freeglut-devel libX11-devel libXi-devel libXmu-devel make mesa-libGLU-devel freeimage-devel glfw
 ```
 
-## Intel Specific Codecs
+## Codecs for Intel GPUs
 * For Skylake and **newer** processors or Intel Arc GPUs
 ```
 sudo dnf install libva-intel-driver
@@ -25,5 +37,5 @@ sudo dnf install libva-intel-driver
 
 * For **before** Skylake processors
 ```
-sudo dnf install libva-intel-driver
+sudo dnf install intel-media-driver
 ```
