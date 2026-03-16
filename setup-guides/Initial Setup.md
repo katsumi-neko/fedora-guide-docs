@@ -54,7 +54,8 @@ flatpak remote-delete fedora
 * By default, the service `NetworkManager-wait-online.service` is enabled in Fedora. This service will delay the system booting up until a network connection is established, but it is known to occasionally hang and delay startup. You should only disable this service if you do not have any services that are dependent on an online connection to start. (Out of the box, Fedora does not have any such services)
 ```
 sudo systemctl disable NetworkManager-wait-online.service
+```
 
 ## Conclusion
 It is recommended to reboot your system one more time after completing the initial setup, then your system should be ready to use!
-```
+
