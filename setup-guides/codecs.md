@@ -43,8 +43,3 @@ sudo dnf install libva-intel-driver
 sudo dnf install intel-media-driver
 ```
 
-### Sources:
-* Official RPM Fusion guide
-https://rpmfusion.org/Howto/Multimedia
-* Community Discord server Guides channel
-https://discord.gg/fedora
