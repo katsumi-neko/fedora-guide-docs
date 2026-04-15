@@ -16,7 +16,8 @@ sudo dnf update @multimedia --setopt="install_weak_deps=False" --exclude=Package
 
 ## Hardware Accelerated Codecs
 
-### For AMD GPUs
+### For AMD GPUs ( Fedora 43 and earlier)
+* This step is no longer necessary for Fedora 44 and newer. 
 * These commands will swap out the FOSS codecs with the restricted ones for better compatibility
 ```
 sudo dnf swap mesa-va-drivers.i686 mesa-va-drivers-freeworld.i686
@@ -41,3 +42,9 @@ sudo dnf install libva-intel-driver
 ```
 sudo dnf install intel-media-driver
 ```
+
+Sources:
+* Official RPM Fusion guide
+https://rpmfusion.org/Howto/Multimedia
+* Community Discord server Guides channel
+https://discord.gg/fedora
