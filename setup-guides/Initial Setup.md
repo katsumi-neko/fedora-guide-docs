@@ -51,6 +51,9 @@ sudo systemctl disable NetworkManager-wait-online.service
 It is recommended to reboot your system one more time after completing the initial setup, then your system should be ready to use!
 
 ### Sources
-Official RPM Fusion configuration guide https://rpmfusion.org/Configuration
-Community tutorial to replace Fedora Flatpak with Flathub https://discussion.fedoraproject.org/t/tutorial-how-to-replace-the-fedora-flatpak-repo-with-flathub/44320
+* Official RPM Fusion configuration guide https://rpmfusion.org/Configuration
+* Official RPM Fusion Nvidia guide https://rpmfusion.org/Howto/NVIDIA
+* Official RPM Fusion Multimedia guide https://rpmfusion.org/Howto/Multimedia
+* Community Discord server Guides channel https://discord.gg/fedora
+* Community tutorial to replace Fedora Flatpak with Flathub https://discussion.fedoraproject.org/t/tutorial-how-to-replace-the-fedora-flatpak-repo-with-flathub/44320
 
