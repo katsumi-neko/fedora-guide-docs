@@ -38,4 +38,7 @@ kvm                   831488  1 kvm_amd
 
 ## Creating and Using Virtual Machines
 * It is far easier to use the Virtual Machine Manager GUI application to manage your virtual machines. This is installed in the steps above
-* If you prefer a command line based method of managing virtual machines, [this guide](https://docs.fedoraproject.org/en-US/quick-docs/virtualization-getting-started/#_creating_virtual_machines/) will help you do this. 
+* If you prefer a command line based method of managing virtual machines, [this guide](https://docs.fedoraproject.org/en-US/quick-docs/virtualization-getting-started/#_creating_virtual_machines/) will help you do this.
+
+### Sources
+* Official Fedora Virtualization Guide https://docs.fedoraproject.org/en-US/quick-docs/virtualization-getting-started/
