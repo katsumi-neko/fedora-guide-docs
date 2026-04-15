@@ -43,7 +43,7 @@ sudo dnf install libva-intel-driver
 sudo dnf install intel-media-driver
 ```
 
-Sources:
+### Sources:
 * Official RPM Fusion guide
 https://rpmfusion.org/Howto/Multimedia
 * Community Discord server Guides channel
