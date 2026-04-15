@@ -25,5 +25,6 @@ In addition to the browser configuration, you will need to enable these environm
 
 `MOZ_DISABLE_RDD_SANDBOX=1 LIBVA_DRIVER_NAME=nvidia`
 
+
 ### Sources
 Nvidia VA-API Driver Github https://github.com/elFarto/nvidia-vaapi-driver
