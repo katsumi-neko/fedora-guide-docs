@@ -1,19 +1,10 @@
 # Post Installation Setup Guide
 This guide will help you set up your Fedora installation for general use, please read everything in a section before just running commands.
+Items tagged `(Optional)` are personal suggestions/preferences for a better experience, these are not required. 
 
 |[Home](https://github.com/katsumi-neko/fedora-guide-docs)|
 |---|
 
-## (Optional) DNF Configuration
-* This is a set of quality of life options for your DNF configuration to make life easier.
-Edit your `/etc/dnf/dnf.conf` to look like this.
-```
-[main]
-max_parallel_downloads=10 
-# Sets the amount of simultaneous downloads to 10
-defaultyes=True
-# Sets default behavior to Yes when pressing Enter on a confirmation
-```
 
 ## (Important) Update your system
 * It is critical to update your system before installing any packages in order to ensure stability and that you get the latest version of all packages.
@@ -58,4 +49,8 @@ sudo systemctl disable NetworkManager-wait-online.service
 
 ## Conclusion
 It is recommended to reboot your system one more time after completing the initial setup, then your system should be ready to use!
+
+### Sources
+Official RPM Fusion configuration guide https://rpmfusion.org/Configuration
+Community tutorial to replace Fedora Flatpak with Flathub https://discussion.fedoraproject.org/t/tutorial-how-to-replace-the-fedora-flatpak-repo-with-flathub/44320
 
