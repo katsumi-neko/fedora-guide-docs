@@ -27,4 +27,4 @@ In addition to the browser configuration, you will need to enable these environm
 
 
 ### Sources
-Nvidia VA-API Driver Github https://github.com/elFarto/nvidia-vaapi-driver
+* Nvidia VA-API Driver Github https://github.com/elFarto/nvidia-vaapi-driver
