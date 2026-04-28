@@ -12,7 +12,7 @@ sudo dnf install akmod-nvidia xorg-x11-drv-nvidia-cuda xorg-x11-drv-nvidia-cuda-
 ## Legacy Nvidia GPU Drivers (10xx or older cards)
 (Only applies on Fedora 44 and newer)
 ```
-sudo dnf install xorg-x11-drv-nvidia-580xx akmod-nvidia-580xx xorg-x11-drv-nvidia-580xx-cuda
+sudo dnf install akmod-nvidia-580xx xorg-x11-drv-nvidia-580xx xorg-x11-drv-nvidia-580xx-cuda
 ```
 
 ## Important Notice!!
