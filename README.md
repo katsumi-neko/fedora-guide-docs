@@ -1,5 +1,6 @@
 # Katsumi's Fedora Guide Docs
 Guides and Documentation to help new users get started with Fedora Linux! Most of this information is pulled from the official Fedora, RPM Fusion, and other related documentation, with some personal recommendations added in as `(Optional)` sections. 
+* Note, this guide is made with **Fedora 44** in mind. It will be updated as new releases come out. 
 * More guides will be added as time goes on. 
 
 ## Initial setup
