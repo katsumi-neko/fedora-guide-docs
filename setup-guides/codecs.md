@@ -16,14 +16,15 @@ sudo dnf update @multimedia --setopt="install_weak_deps=False" --exclude=Package
 
 ## Hardware Accelerated Codecs
 
-### For AMD GPUs ( Fedora 43 and earlier)
-* This step is no longer necessary for Fedora 44 and newer. 
+### For AMD GPUs
 * These commands will swap out the FOSS codecs with the restricted ones for better compatibility
 ```
-sudo dnf swap mesa-va-drivers.i686 mesa-va-drivers-freeworld.i686
+sudo dnf install mesa-va-drivers-freeworld
+sudo dnf swap mesa-vulkan-drivers{,-freeworld}
 ```
 ```
-sudo dnf swap mesa-va-drivers mesa-va-drivers-freeworld
+sudo dnf install mesa-va-drivers-freeworld.i686
+sudo dnf swap mesa-vulkan-drivers{,-freeworld}.i686
 ```
 
 ### For Nvidia GPUs
@@ -35,11 +36,11 @@ sudo dnf install libva-nvidia-driver.{i686,x86_64} libva-utils vdpauinfo nvidia-
 ### For Intel GPUs
 * For Skylake and **newer** processors or Intel Arc GPUs
 ```
-sudo dnf install libva-intel-driver
+sudo dnf install intel-media-driverr
 ```
 
 * For **before** Skylake processors
 ```
-sudo dnf install intel-media-driver
+sudo dnf install libva-intel-driver
 ```
 
